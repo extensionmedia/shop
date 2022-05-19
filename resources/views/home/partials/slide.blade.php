@@ -1,5 +1,5 @@
-<div class="w-full flex gap-4 bg-white h-96">
-    <div class="flex-1 grid place-items-center bg-red-200">
+<div class="w-full md:flex mb-4 gap-4 bg-white h-96">
+    <div class="flex-1 h-full grid place-items-center bg-red-200">
         <div class="w-full flex justify-between h-12 items-center px-4">
             <div class="py-1 px-2 bg-white text-gray-600 hover:text-gray-900 rounded-lg"><i class="fa-solid fa-angle-left"></i></div>
             <div class="bg-white px-6 py-2 text-center rounded">
@@ -13,7 +13,7 @@
             <div class="py-1 px-2 bg-white text-gray-600 hover:text-gray-900 rounded-lg"><i class="fa-solid fa-angle-right"></i></div>
         </div>
     </div>
-    <div class="flex flex-col h-full flex-1 gap-4">
+    <div class="hidden md:flex flex-col h-full flex-1 gap-4">
         <div class="flex flex-1 gap-4">
             <div class="grid place-items-center flex-1 bg-gray-100">
                 <div class="w-full flex justify-center h-12 items-center px-4">
@@ -34,12 +34,21 @@
                 </div>
             </div>
         </div>
-        <div class="grid place-items-center flex-1 bg-gray-500">
+        <div class="flex flex-1 gap-4">
             <div class="grid place-items-center flex-1 bg-gray-100">
                 <div class="w-full flex justify-center h-12 items-center px-4">
                     <div class="bg-white px-6 py-2 text-center rounded">
                         <div class="text-lg text-black">
                             Accessories
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid place-items-center flex-1 bg-gray-100">
+                <div class="w-full flex justify-center h-12 items-center px-4">
+                    <div class="bg-white px-6 py-2 text-center rounded">
+                        <div class="text-lg text-black">
+                            Others
                         </div>
                     </div>
                 </div>
