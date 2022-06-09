@@ -1,4 +1,4 @@
-<div class="w-full md:flex mb-4 gap-4 bg-white h-96">
+<div class="md:flex mb-4 gap-4 bg-white h-[556px] ">
     <div class="flex-1 h-full grid place-items-center bg-red-200">
         <div class="w-full flex justify-between h-12 items-center px-4">
             <div class="py-1 px-2 bg-white text-gray-600 hover:text-gray-900 rounded-lg"><i class="fa-solid fa-angle-left"></i></div>

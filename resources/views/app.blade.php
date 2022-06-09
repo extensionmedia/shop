@@ -17,7 +17,7 @@
     </style>
 </head>
 <body>
-    <div class="w-screen h-screen relative bg-white pt-28">
+    <div class="pb-48 relative bg-white pt-28">
         @include('components.general.h-menu')
         <div class="px-2 w-full md:container md:mx-auto">
             @yield('content')

@@ -6,24 +6,22 @@
 
     <div class="mt-12">
         <div class="flex justify-between items-center py-4">
-            <div class="font-bold text-black text-2xl">
+            <div class="font-bold text-black text-3xl">
                 Woman's
             </div>
-            <div class="flex gap-6">
-                <a href="http://">New Arrivals</a>
-                <a href="http://">Specials</a>
-                <a href="http://">Bestsellers</a>
-                <a href="http://">Most Viewed</a>
-                <a href="http://">Featured Products</a>
+            <div class="flex gap-8">
+                <a href="http://" class="text-gray-600 font-bold underline">New Arrivals</a>
+                <a href="http://" class="text-gray-600 hover:underline">Specials</a>
+                <a href="http://" class="text-gray-600 hover:underline">Bestsellers</a>
+                <a href="http://" class="text-gray-600 hover:underline">Most Viewed</a>
+                <a href="http://" class="text-gray-600 hover:underline">Featured Products</a>
             </div>
         </div>
     </div>
-    <div class="h-44 hidden border flex gap-8">
+    <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
         @include('components.product.item')
         @include('components.product.item')
         @include('components.product.item')
         @include('components.product.item')
     </div>
-
-    hello this the content
 @endsection
